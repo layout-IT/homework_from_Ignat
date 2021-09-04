@@ -1,0 +1,79 @@
+.jun {
+    font-family: "Arial Black";
+    font-size: 30px;
+    color: white;
+}
+
+.jun {
+    text-align: center;
+    margin-top: 200px;
+    font-size: 100px;
+    transition: all 0.3s ease 0s;
+    animation: heart 1s ease-in-out both;
+    transition: all 0.3s ease 0s;
+}
+
+@keyframes heart {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.items {
+    margin-bottom: 100px;
+    position: relative;
+    left: -335px;
+    transition: all 0.3s ease 0s;
+}
+.items:hover{
+    position: relative;
+    left: 0px;
+    transition: all 0.3s ease 0s;
+}
+
+.item {
+    font-family: "Baskerville Old Face";
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.item:hover {
+    box-shadow: 1px 1px 3px 6px rgba(255, 255, 255, 0.6);
+    transition: all 0.3s ease 0s;
+}
+
+.item:active {
+    box-shadow: 1px 1px 3px 3px rgba(255, 255, 255, 0.6);
+    transition: all 0.3s ease 0s;
+}
+
+
+.active {
+    color: red;
+    margin: 0 30px;
+    transition: all 0.3s ease 0s;
+}
+
+.active:hover {
+    box-shadow: 1px 1px 3px 6px rgba(255, 0, 0, 0.56);
+
+}
+
+.active:active {
+    box-shadow: 1px 1px 1px 3px rgba(255, 0, 0, 0.56);
+}
+
+.but {
+    background: url("http://pngimg.com/uploads/square/square_PNG62.png") 0 0/cover no-repeat;
+    color: #044704;
+    font-family: "Arial Black";
+}

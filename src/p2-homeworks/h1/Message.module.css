@@ -1,0 +1,121 @@
+.message {
+
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    align-self: flex-end;
+}
+
+.container{
+    background-color: #acd41c;
+    max-width: 500px;
+    display: flex;
+    padding: 10px 10px 10px 15px;
+    animation: bounce-top 0.9s both;
+}
+@keyframes bounce-top {
+    0% {
+        transform: translateY(-45px);
+        animation-timing-function: ease-in;
+        opacity: 1;
+    }
+    24% {
+        opacity: 1;
+    }
+    40% {
+        transform: translateY(-24px);
+        animation-timing-function: ease-in;
+    }
+    65% {
+        transform: translateY(-12px);
+        animation-timing-function: ease-in;
+    }
+    82% {
+        transform: translateY(-6px);
+        animation-timing-function: ease-in;
+    }
+    93% {
+        transform: translateY(-4px);
+        animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+        transform: translateY(0px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translateY(0px);
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+}
+
+
+.item{
+    display: flex;
+
+
+}
+
+.contant{
+    background-color: #2e652e;
+    padding: 10px 15px 10px 15px;
+    max-width: 386px;
+    flex-wrap: wrap;
+    border-radius: 15px 15px 15px 0px;
+    animation:   rotate-scale-up 1.5s linear both;
+    animation-delay: 0.3s;
+}
+
+@keyframes rotate-scale-up {
+    0% {
+        transform: scale(1) rotateZ(0);
+    }
+    50% {
+        transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+        transform: scale(1) rotateZ(360deg);
+    }
+}
+
+
+.name{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 30px;
+    color: #b598d0;
+}
+
+.message{
+    font-family: Arial;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.78);
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.time{
+    font-family: Arial;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.47);
+   align-self: flex-end;
+
+}
+
+.homeWork{
+    color: #b386ee;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    padding-bottom: 10px;
+}

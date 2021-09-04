@@ -1,0 +1,60 @@
+.default {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation: scale-in-hor-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    color: rgba(0, 0, 0, 0.53);
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+@keyframes scale-in-hor-center {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+
+.default:hover {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.55);
+    cursor: pointer;
+}
+
+.red {
+    margin-bottom: 10px;
+    background-color: rgba(255, 118, 118, 0.23);
+    border-radius: 15px;
+    border: 1px solid rgb(255, 0, 0);
+    color: #dbdada;
+    cursor: pointer;
+
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.red:hover{
+    box-shadow: 3px 3px 6px red;
+}
+
+.SuperButton_default__27RSN{
+    color: white;
+}
+
