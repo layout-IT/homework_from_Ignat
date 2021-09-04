@@ -1,0 +1,27 @@
+.wrapper{
+    padding: 0 20px;
+
+
+}
+
+.text{
+    color: white;
+    font-family: "Blackadder ITC";
+    font-size: 30px;
+    margin: 0 0 10px 0;
+
+}
+
+.text_black{
+    color: black;
+    margin-right: 20px;
+}
+
+button{
+    font-family: "Blackadder ITC";
+    font-size: 20px;
+    color: black;
+
+}
+
+

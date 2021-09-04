@@ -2,32 +2,32 @@ import React, {useState} from 'react'
 import SuperEditableSpan from './common/c4-SuperEditableSpan/SuperEditableSpan'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {restoreState, saveState} from './localStorage/localStorage'
+import s from './HW6.module.css'
 
 function HW6() {
-    const [value, setValue] = useState<string>('')
+    let [value, setValue] = useState<string>('')
 
     const save = () => {
         saveState<string>('editable-span-value', value)
+        // setValue('')
     }
     const restore = () => {
+        setValue(restoreState('editable-span-value', value))
         // setValue()
     }
 
     return (
-        <div>
-            <hr/>
-            homeworks 6
-
-            {/*should work (должно работать)*/}
+        <div className={s.wrapper}>
+            <h2 className={s.text}>Homework 6</h2>
             <div>
                 <SuperEditableSpan
                     value={value}
                     onChangeText={setValue}
-                    spanProps={{children: value ? undefined : 'enter text...'}}
+                    spanProps={{children: value ? undefined : '...enter text...'}}
                 />
             </div>
-            <SuperButton onClick={save}>save</SuperButton>
-            <SuperButton onClick={restore}>restore</SuperButton>
+            <SuperButton className={s.text_black} onClick={save}>save</SuperButton>
+            <SuperButton className={s.text_black} onClick={restore}>restore</SuperButton>
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
