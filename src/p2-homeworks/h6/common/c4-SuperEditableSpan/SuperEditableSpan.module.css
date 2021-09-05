@@ -4,25 +4,31 @@
 
 }
 
+
+.span::before{
+    content: '';
+    background: url("https://ds05.infourok.ru/uploads/ex/040e/00124005-a5e424ee/hello_html_505efdec.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 8px ;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+}
+
+
+
 .container {
     max-hight: 22px;
     max-width: 200px;
     position: relative;
-    margin:  0 0 10px 0;
+    margin: 0 0 10px 0;
 }
 
 .TextInput {
     color: white;
 }
 
-.img{
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 50px;
-    height: 30px;
-    background-image: url("https://ds05.infourok.ru/uploads/ex/040e/00124005-a5e424ee/hello_html_505efdec.png");
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-}

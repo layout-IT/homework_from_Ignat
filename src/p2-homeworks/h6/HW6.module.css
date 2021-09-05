@@ -1,10 +1,10 @@
-.wrapper{
+.wrapper {
     padding: 0 20px;
 
 
 }
 
-.text{
+.text {
     color: white;
     font-family: "Blackadder ITC";
     font-size: 30px;
@@ -12,12 +12,12 @@
 
 }
 
-.text_black{
+.text_black {
     color: black;
     margin-right: 20px;
 }
 
-button{
+button {
     font-family: "Blackadder ITC";
     font-size: 20px;
     color: black;
