@@ -1,0 +1,46 @@
+.title{
+    font-family: 'Rubik One', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: -5px -5px 0px #fff34d;
+    background: radial-gradient(#ffffff 1px, transparent 1px);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    margin: 20px 0 20px 10px;
+}
+
+.people{
+    max-width: 200px;
+    padding: 20px;
+    letter-spacing: 0.2em;
+    border: 1px solid;
+    border-image: linear-gradient(20deg, #ffd400 38%, #ffffff 65%);
+    border-image-slice: 1;
+    color: white;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.but{
+    font-family: 'Rubik One', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #ffffff 33%, #f4ff00 66%, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #000000;
+    display: table;
+    margin:  20px 10px 0 0px;
+    border-radius: 10px;
+    max-width: 75px;
+}
+
+.wrapper{
+    padding: 0 0 0 70px;
+}
+
+.but_Container{
+    display: flex;
+}
