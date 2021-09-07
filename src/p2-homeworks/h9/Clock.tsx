@@ -30,7 +30,7 @@ function Clock() {
     const stringDate = Date() // fix with date
 
     return (
-        <div >
+        <div>
             <div
                 className={s.time}
                 onMouseEnter={onMouseEnter}

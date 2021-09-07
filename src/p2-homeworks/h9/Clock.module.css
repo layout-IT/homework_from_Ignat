@@ -1,6 +1,7 @@
-.wrapper{
+.wrapper {
     padding: 20px;
 }
+
 .title {
     color: rgb(255, 186, 186);
     -webkit-animation: text-shadow-pop-tl 0.6s both;
